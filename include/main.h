@@ -15,7 +15,7 @@
 #include <Arduino.h>
 // OLED 
 // https://github.com/ThingPulse/esp8266-oled-ssd1306
-// ESP8266 and ESP32 Oled Driver for SSD1306 display by Daniel Eichhorn
+// ESP8266 and ESP32 OLED driver for SSD1306 displays by ThingPulse
 #include <wire.h>
 #include <SSD1306Wire.h>
 #include "wc_font.h"
@@ -23,6 +23,8 @@
 // RTClib by Adafruit
 #include <RTClib.h>
 #include "WIFI_pwd.h"
+// const char* ssid="...";
+// const char* password="...";
 #include <WiFi.h>
 #include <time.h>
 // Pixels
